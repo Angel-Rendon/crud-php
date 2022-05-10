@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+/* configuracion de body y container */
+body{
+    background-image: url(../../../assets/fondo-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.login-container{    
+    height: 65%;
+    width: 100%;
+}
+/* configuracion de card-login y contenido*/
+.login-card{
+    width: 35%;
+    background-color: rgba(255, 255, 255, 0.945);
+}
+.font-login{
+    font-family: 'Inconsolata', monospace;
+}
