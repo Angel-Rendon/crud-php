@@ -1,2 +1,2 @@
 # crud-php
-crud-php verdadera con sistemas de login
+crud-php verdudera con sistemas de login
