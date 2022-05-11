@@ -7,10 +7,6 @@ body{
     background-position: center center;
     background-attachment: fixed;
 }
-.login-container{    
-    height: 65%;
-    width: 100%;
-}
 /* configuracion de card-login y contenido*/
 .login-card{
     width: 35%;
@@ -18,4 +14,10 @@ body{
 }
 .font-login{
     font-family: 'Inconsolata', monospace;
+}
+@media only screen and (max-width: 600px) {
+    .login-card{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.945);
+    }
 }
