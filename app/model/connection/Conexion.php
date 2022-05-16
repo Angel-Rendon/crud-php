@@ -11,7 +11,6 @@ class Conexion extends PDO
 
     public function __construct()
     {
-        //Sobreescribo el método constructor de la clase PDO.
         try {
             parent::__construct(
                 "{$this->tipo_de_base}:host={$this->host};
@@ -28,4 +27,3 @@ class Conexion extends PDO
     }
 
 }
-$dbConexion = new Conexion();
